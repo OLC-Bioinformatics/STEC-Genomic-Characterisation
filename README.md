@@ -26,7 +26,7 @@ chapter3_cfia_stec_characterisation/  497 CFIA STEC genomes
 
 chapter4_stx2i_lamb/                  66 stx2i-positive genomes
 ├── scripts/
-├── data/                             curated genome metadata and cgMLST input
+├── data/                             curated metadata, virulence tables, chewBBACA output
 └── figures/                          Figures 4.1-4.2
 
 supplementary_tables/                 the electronic supplementary tables (xlsx)
@@ -93,8 +93,8 @@ Nanopore reads, analysed alongside 59 curated public genomes.
 `data/Stx2i_NCBI_CFIA_genomes_working_260730.xlsx` (sheet `NCBI_CFIA_dataset`) is the
 metadata source for both scripts; `combined_virulence_results.tsv` is the raw
 VirulenceFinder output, and the four derived tables alongside it are the heatmap script's
-own outputs. The GrapeTree Newick file that `spanning_tree.R` reads is not included — see
-the chapter README.
+own outputs. `data/chewbbaca/` holds the chewBBACA allele calls, the 95% core schema and
+the GrapeTree Newick file that `spanning_tree.R` reads.
 
 ## Software
 
