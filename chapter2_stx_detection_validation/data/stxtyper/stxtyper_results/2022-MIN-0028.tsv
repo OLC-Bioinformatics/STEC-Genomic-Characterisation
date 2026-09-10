@@ -1,0 +1,3 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+2022-MIN-0028	3	stx2d	COMPLETE	99.75	698177	699414	+	AAM22256.1	stxA2	99.69	100.00	AAA16363.1	stxB2c	100.00	100.00
+2022-MIN-0028	5	stx2b	COMPLETE	100.00	12490	13722	-	CAA46767.1	stxA2b	100.00	100.00	AAA16361.1	stxB2b	100.00	100.00

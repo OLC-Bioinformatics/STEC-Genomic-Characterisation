@@ -1,0 +1,5 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+2019-MIN-0073	1	stx1a	COMPLETE	100.00	688485	689708	-	UIU88878.1	stxA1a	100.00	100.00	AAA71894.1	stxB1a	100.00	100.00
+2019-MIN-0073	1	stx2b	COMPLETE	99.26	780876	782108	-	BAB82998.1	stxA2b	99.06	100.00	AAA16361.1	stxB2b	100.00	100.00
+2019-MIN-0073	2	stx1c	COMPLETE	100.00	25473	26697	-	CAA85370.1	stxA1c	100.00	100.00	CAA85371.1	stxB1c	100.00	100.00
+2019-MIN-0073	2	stx2b	COMPLETE	99.26	749476	750708	-	BAB82998.1	stxA2b	99.06	100.00	AAA16361.1	stxB2b	100.00	100.00

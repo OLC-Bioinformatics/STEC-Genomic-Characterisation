@@ -1,0 +1,2 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+2021-MIN-0249	1	stx2i	COMPLETE	99.51	2153684	2154922	-	CAX53241.1	stxA2i	99.37	100.00	CAX53242.1	stxB2i	100.00	100.00

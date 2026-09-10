@@ -1,0 +1,5 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+DRR401569_FP	Contig_158_166.175	stx2	PARTIAL_CONTIG_END	NA	24000	24104	+	AAA19623.1	stxA2	100.00	10.97	NA	NA	NA	NA
+DRR401569_FP	Contig_186_231.084	stx2a	COMPLETE	100.00	441	1678	+	AAA19623.1	stxA2	100.00	100.00	AAS07607.1	stxB2a	100.00	100.00
+DRR401569_FP	Contig_195_483.062	stx1a	COMPLETE	100.00	713	1936	+	AAA98347.1	stxA1a	100.00	100.00	BAC78640.1	stxB1a	100.00	100.00
+DRR401569_FP	Contig_225_250.569	stx2	PARTIAL_CONTIG_END	99.36	1377	1861	-	AAG01033.1	stxA2c	98.53	21.32	AAA16363.1	stxB2c	100.00	100.00

@@ -1,0 +1,4 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+GCA_018966965.1	JAHMAB010000001.1	stx2	PARTIAL	NA	1400308	1400574	-	NA	NA	NA	NA	AAS07607.1	stxB2a	100.00	100.00
+GCA_018966965.1	JAHMAB010000001.1	stx2	PARTIAL	NA	1401953	1402858	-	AAA19623.1	stxA2	100.00	94.67	NA	NA	NA	NA
+GCA_018966965.1	JAHMAB010000001.1	stx1a	COMPLETE	100.00	5203331	5204554	+	AAA98347.1	stxA1a	100.00	100.00	AAA71894.1	stxB1a	100.00	100.00

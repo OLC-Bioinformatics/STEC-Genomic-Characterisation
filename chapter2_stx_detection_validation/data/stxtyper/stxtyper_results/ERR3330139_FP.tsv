@@ -1,0 +1,2 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+ERR3330139_FP	Contig_94_54.5261	stx2f	COMPLETE	99.01	8573	9805	-	BAH86759.1	stxA2f	99.06	100.00	AAA24633.1	stxB2f	98.85	100.00

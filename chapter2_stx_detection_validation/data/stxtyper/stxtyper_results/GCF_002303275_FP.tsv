@@ -1,0 +1,2 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+GCF_002303275_FP	Contig_38_81.9779	stx1e	COMPLETE	100.00	167480	168703	+	AHJ80155.1	stxA1e	100.00	100.00	AHJ80154.1	stxB1e	100.00	100.00

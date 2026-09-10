@@ -1,0 +1,2 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+SRR3068663_FP	Contig_36_73.8666	stx2j	COMPLETE	100.00	18851	20081	+	EMA1832120.1	stxA2j	100.00	100.00	EED0303793.1	stxB2j	100.00	100.00

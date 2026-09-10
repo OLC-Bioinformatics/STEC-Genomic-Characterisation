@@ -1,0 +1,2 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+SRR2015133_FP	Contig_42_72.6083	stx2c	COMPLETE	99.75	29710	30947	-	ABU55302.1	stxA2	99.69	100.00	AAA16363.1	stxB2c	100.00	100.00
