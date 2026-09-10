@@ -4,6 +4,8 @@ Analysis code and derived data for the MSc thesis *Genomic Characterisation and 
 Assessment of Shiga Toxin-Producing Escherichia coli* (N. Shubair, Carleton University,
 in collaboration with the Canadian Food Inspection Agency).
 
+The thesis cites this repository in the Methods of Chapters 2 and 3 as the source of the
+custom comparison scripts and of all analysis and plotting code.
 
 ## What this repository contains
 
@@ -16,15 +18,18 @@ accessions are listed in Supplementary Table S3.1.
 ```
 chapter2_stx_detection_validation/    validation of four stx detection workflows
 ├── scripts/                          parsing, subtype comparison, metrics, figures
-└── data/                             ground truth and per-tool comparison outputs
+├── data/                             ground truth and per-tool comparison outputs
+└── figures/                          Figures 2.1-2.4
 
 chapter3_cfia_stec_characterisation/  497 CFIA STEC genomes
-├── scripts/                          R scripts for Figures 3.1-3.4 and the summary tables
-└── data/                             virulence presence/absence matrices and metadata
+├── scripts/                          R scripts for Figures 3.1-3.3 and the summary tables
+├── data/                             virulence presence/absence matrices and metadata
+└── figures/                          Figures 3.1-3.3 and two exploratory heatmaps
 
 chapter4_stx2i_lamb/                  66 stx2i-positive genomes
 ├── scripts/
-└── data/                             curated genome metadata and cgMLST input
+├── data/                             curated genome metadata and cgMLST input
+└── figures/                          Figures 4.1-4.2
 
 supplementary_tables/                 the electronic supplementary tables (xlsx and pdf)
 ```
