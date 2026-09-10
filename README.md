@@ -31,7 +31,7 @@ chapter4_stx2i_lamb/                  66 stx2i-positive genomes
 ├── data/                             curated genome metadata and cgMLST input
 └── figures/                          Figures 4.1-4.2
 
-supplementary_tables/                 the electronic supplementary tables (xlsx and pdf)
+supplementary_tables/                 the electronic supplementary tables (xlsx)
 ```
 
 ## Chapter 2 — validation of stx detection and subtyping
@@ -53,7 +53,7 @@ reference database ([STxDB](https://github.com/OLC-Bioinformatics/STxDB)).
 | `geneseekr_subtype_comparison_cutoff.py` | Scores GeneSeekr at ≥ 90% percent match — the analysis reported in the thesis. |
 | `geneseekr_subtype_comparison.py` | The same comparison with no cutoff applied. |
 | `stxtyper_subtype_comparison.py` | Scores StxTyper on COMPLETE operons only. |
-| `kma_secondary_..._19_subtypes.py` | Secondary three-level validation: nucleotide operon, variant and subtype scored independently. |
+| `kma_secondary_independent_three_level_comparison_pipeline_19_subtypes.py` | Secondary three-level validation: nucleotide operon, variant and subtype scored independently. |
 | **Plot** | |
 | `comparison_metrics_with_confidence_intervals_plot_allmetrics.R` | Figures 2.1 and 2.2; Clopper–Pearson 95% confidence intervals. |
 | `radar_chart_F1scores.R` | Figure 2.3 radar plots (fmsb). |
@@ -75,7 +75,7 @@ install — see the chapter README.
 | `chapter3_virulence_heatmap_497_corrected.R` | virulence gene presence/absence heatmap across all 497 genomes |
 | `chapter3_virulence_heatmap_497_prevalence.R` | prevalence-scaled variant of the same heatmap |
 | `chapter3_fig3.3_virulence_by_O157.R` | Figure 3.3, virulence gene prevalence in O157:H7 versus non-O157 |
-| `chapter3_fig3.4_risk_levels.R` | FAO/WHO risk level distribution |
+| `chapter3_fig3.4_risk_levels.R` | FAO/WHO risk level assigned to each genome, and the counts underlying Table 3.6 |
 
 `data/chapter3_497_virulence_presence_absence.tsv` is the binary genome × gene matrix that
 the heatmap scripts read; `chapter3_497_virulence_gene_categories.tsv` assigns each gene to
