@@ -101,8 +101,8 @@ the GrapeTree Newick file that `spanning_tree.R` reads.
 | Tool | Version | Tool | Version |
 |---|---|---|---|
 | COWBAT | 0.5.0.23 | KMA | 1.6.8 |
-| FastQC | 0.11.8 | Sipprverse | 0.2.46 |
-| BBTools (bbduk, Tadpole) | 38.22 | GeneSeekr | 0.5.0 |
+| FastQC | 0.11.8 (COWBAT) / 0.11.6 (Ch. 4) | Sipprverse | 0.2.46 |
+| BBTools (bbduk, Tadpole) | 38.22 (COWBAT) / 37.78 (Ch. 4) | GeneSeekr | 0.5.0 |
 | ConFindr | 0.4.7 | StxTyper | 1.0.45 |
 | SKESA | 2.3.0 | ECTyper | 2.0.0 |
 | Pilon | 1.22 | VirulenceFinder | 3.2.1 (DB 2022-12-02) |
@@ -140,8 +140,8 @@ Toxin-Producing Escherichia coli* [MSc thesis]. Carleton University.
 - [sipprverse](https://github.com/OLC-Bioinformatics/sipprverse)
 - [COWBAT](https://github.com/OLC-Bioinformatics/COWBAT)
 - [StxTyper](https://github.com/ncbi/stxtyper) (NCBI)
-- [chewBBACA](https://github.com/B-UMMI/chewBBACA) (B-UMMI) — cgMLST/wgMLST schema creation and allele calling; the output in `chapter4_stx2i_lamb/data/chewbbaca/` was produced with it
-- [GrapeTree](https://github.com/achtman-lab/GrapeTree) (Achtman lab) — MSTreeV2, which built the tree in `cgMLST95_MSTreeV2.nwk`
+- [chewBBACA](https://github.com/B-UMMI/chewBBACA) (B-UMMI) — cgMLST/wgMLST schema creation and allele calling
+- [GrapeTree](https://github.com/achtman-lab/GrapeTree) (Achtman lab) — MSTreeV2
 
 ## Contact
 
