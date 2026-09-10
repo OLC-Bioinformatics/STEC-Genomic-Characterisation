@@ -1,11 +1,8 @@
 # Supplementary tables
 
-The supplementary tables supplied electronically with the thesis.
-
-| File | Contents |
-|---|---|
-| `Thesis_Supplementary_Tables_all.xlsx` | all tables, one worksheet each |
-| `Thesis_Supplementary_Tables.pdf` | the same tables as a single landscape PDF, with the S2.1b operon sequences as FASTA records |
+The supplementary tables supplied electronically with the thesis, in
+`Thesis_Supplementary_Tables.xlsx` — one worksheet per table, with an index sheet and the
+footnotes that accompany each table.
 
 | Table | Contents | Rows |
 |---|---|---|
