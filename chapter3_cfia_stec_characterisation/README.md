@@ -8,12 +8,28 @@ predicted FAO/WHO risk level.
 
 | Script | Output |
 |---|---|
-| `scatterpie_plot_subtypes_by_source.R` | Figure 3.1 — Stx subtype distribution by isolation source |
-| `bubble_plot_variants_by_source.R` | Figure 3.2 — Stx variant distribution by isolation source |
-| `chapter3_virulence_heatmap_497_corrected.R` | virulence gene presence/absence heatmap, all 497 genomes |
-| `chapter3_virulence_heatmap_497_prevalence.R` | prevalence-scaled variant of the same heatmap |
-| `chapter3_fig3.3_virulence_by_O157.R` | Figure 3.3 — virulence gene prevalence, O157:H7 versus non-O157 |
-| `chapter3_fig3.4_risk_levels.R` | FAO/WHO risk level distribution |
+| `scatterpie_plot_subtypes_by_source.R` | `figures/figure3.1_stx_subtype_by_source.jpg` — Figure 3.1, Stx subtype distribution by isolation source |
+| `bubble_plot_variants_by_source.R` | `figures/figure3.2_stx_variant_by_source.jpg` — Figure 3.2, Stx variant distribution by isolation source |
+| `chapter3_fig3.3_virulence_by_O157.R` | `figures/figure3.3_virulence_prevalence_O157_vs_nonO157.png` — Figure 3.3, virulence gene prevalence in O157:H7 versus non-O157 |
+| `chapter3_virulence_heatmap_497_corrected.R` | `figures/virulence_gene_profiles_497_genomes.jpg` — presence/absence heatmap, all 497 genomes |
+| `chapter3_virulence_heatmap_497_prevalence.R` | `figures/virulence_gene_prevalence_by_source_497.jpg` — gene prevalence within each isolation source |
+| `chapter3_fig3.4_risk_levels.R` | risk level assigned to each genome, and the counts underlying Table 3.6 |
+
+## Figures
+
+`figures/` holds the rendered output of the scripts above.
+
+Figures 3.1, 3.2 and 3.3 are the three figures that appear in Chapter 3 of the thesis. The
+two 497-genome heatmaps are exploratory views of the same presence/absence matrix and are
+**not** thesis figures: `virulence_gene_profiles_497_genomes.jpg` shows every genome as a
+row, clustered by Ward D2, and `virulence_gene_prevalence_by_source_497.jpg` collapses the
+genomes into their seven isolation sources and shades each cell by prevalence within that
+source. Both are included because they informed how the gene set was narrowed for
+Figure 3.3.
+
+`chapter3_fig3.4_risk_levels.R` draws a stacked bar chart of the FAO/WHO risk levels that
+was not used in the thesis. It is kept because the same script assigns a risk level to each
+of the 497 genomes and prints the O157:H7 and non-O157 counts that populate **Table 3.6**.
 
 ## Data
 
