@@ -1,0 +1,523 @@
+Installing and running chewBBACA on mac:
+
+https://github.com/B-UMMI/chewBBACA/tree/master
+
+https://chewbbaca.readthedocs.io/en/latest/user/getting_started/overview.html
+
+1)  Check conda installed:
+
+conda --version
+
+2)  This speeds up dependency resolution and is recommended by the chewBBACA developers:
+
+conda install -n base conda-libmamba-solver
+
+conda config --set solver libmamba
+
+3)  Create a new environment
+
+conda create -c conda-forge -c bioconda -n chewbbaca "chewbbaca=3.5.4"
+
+4)  Activate it
+
+conda activate chewbbaca
+
+5)  Verify the installation
+
+chewBBACA.py -h
+
+(chewbbaca) ➜ ~ chewBBACA.py -h
+
+chewBBACA version: 3.5.4
+
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+
+Github: https://github.com/B-UMMI/chewBBACA
+
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+USAGE: chewBBACA.py [module] -h, --help
+
+Select one of the following modules:
+
+CreateSchema: Create a gene-by-gene schema based on a set of genome assemblies or coding sequences.
+
+AlleleCall: Determine the allelic profiles of a set of bacterial genomes based on a schema.
+
+SchemaEvaluator: Build an interactive report for schema evaluation.
+
+AlleleCallEvaluator: Build an interactive report for allele calling results evaluation.
+
+ExtractCgMLST: Determines the set of loci that constitute the core genome based on loci presence thresholds.
+
+RemoveGenes: Remove a list of loci from your allele call output.
+
+PrepExternalSchema: Adapt an external schema to be used with chewBBACA.
+
+JoinProfiles: Join allele calling results from different runs.
+
+GetAlleles: Create FASTA files containing the alleles identified by the AlleleCall module.
+
+UniprotFinder: Retrieve annotations for loci in a schema.
+
+ComputeMSA: Compute a Multiple Sequence Alignment based on allele calling results.
+
+DownloadSchema: Download a schema from Chewie-NS.
+
+LoadSchema: Upload a schema to Chewie-NS.
+
+SyncSchema: Synchronize a schema with its remote version in Chewie-NS.
+
+NSStats: Retrieve basic information about the species and schemas in Chewie-NS.
+
+6)  Download Escherichia_coli.trn from:
+
+https://github.com/B-UMMI/chewBBACA/tree/master/CHEWBBACA/prodigal_training_files
+
+Actual commands on data:
+
+1)  Create Schema:
+
+(chewbbaca) ➜ chapter4 chewBBACA.py CreateSchema -i data/251001_stx2i_ncbi_BestAssemblies -o chewbbaca/output_schema --ptf chewbbaca/prodigal_training_file/Escherichia_coli.trn
+
+chewBBACA version: 3.5.4
+
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+
+Github: https://github.com/B-UMMI/chewBBACA
+
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+============================
+
+chewBBACA - CreateSchema
+
+============================
+
+Started at: 2026-07-30T12:52:43
+
+Provided training file. Using translation table used to create training file.
+
+Prodigal training file: chewbbaca/prodigal_training_file/Escherichia_coli.trn
+
+Prodigal mode: single
+
+Translation table: 11
+
+CPU cores: 1
+
+BLAST Score Ratio: 0.6
+
+Minimum sequence length: 201
+
+Size threshold: 0.2
+
+Output directory: chewbbaca/output_schema
+
+Number of inputs: 67
+
+CDS prediction
+
+================
+
+Predicting CDSs for 66 inputs...
+
+[====================] 100%
+
+Extracted a total of 321038 CDSs from 66 inputs.
+
+CDS deduplication
+
+===================
+
+Identifying distinct CDSs...
+
+Identified 32691 distinct CDSs.
+
+CDS translation
+
+=================
+
+Translating 32691 CDS...
+
+[====================] 100%
+
+1167 CDSs could not be translated.
+
+Protein deduplication
+
+=======================
+
+Identifying distinct proteins...
+
+Identified 22879 distinct proteins.
+
+Kept 22879 sequences after filtering the initial sequences.
+
+Protein clustering
+
+====================
+
+Clustering proteins...
+
+[====================] 100%
+
+Clustered 22879 proteins into 7265 clusters.
+
+Removing proteins highly similar to the cluster representative...
+
+Removed 11038 sequences.
+
+Identified 5742 singletons.
+
+Remaining sequences after representative and singleton pruning: 11841
+
+Removing sequences highly similar to other clustered sequences...
+
+Removed 1510 sequences.
+
+Clusters to BLAST: 1523
+
+Performing all-vs-all BLASTp per cluster...
+
+[====================] 100%
+
+Removing sequences based on high BSR...
+
+Removed 2933 sequences.
+
+Final BLASTp
+
+==============
+
+7398 sequences to compare in final BLASTp.
+
+Performing final BLASTp...
+
+[====================] 100%
+
+Removed 179 sequences highly similar to other sequences.
+
+Creating schema seed in chewbbaca/output_schema
+
+Creating file with the coordinates of CDSs identified in inputs (cds_coordinates.tsv)...
+
+Created schema seed with 7219 loci.
+
+Copied Prodigal training file to chewbbaca/output_schema/schema_seed
+
+Wrote schema config values to chewbbaca/output_schema/schema_seed/.schema_config
+
+Wrote list of loci to chewbbaca/output_schema/schema_seed/listGenes2Call.txt
+
+Finished at: 2026-07-30T12:59:00
+
+1)  Took 6m 17s.
+
+2)  AlleleCall:
+
+(chewbbaca) ➜ chapter4 chewBBACA.py AlleleCall -i data/260730_stx2i_ncbi_BestAssemblies -g chewbbaca/output_schema/schema_seed -o chewbbaca/ allele_call_results_wgMLST
+
+chewBBACA version: 3.5.4
+
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+
+Github: https://github.com/B-UMMI/chewBBACA
+
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+==========================
+
+chewBBACA - AlleleCall
+
+==========================
+
+Started at: 2026-07-30T13:10:26
+
+Configuration values
+
+======================
+
+Minimum sequence length: 0
+
+Size threshold: 0.2
+
+Translation table: 11
+
+BLAST Score Ratio: 0.6
+
+Word size: 5
+
+Window size: 5
+
+Clustering similarity: 0.2
+
+Prodigal training file: chewbbaca/output_schema/schema_seed/Escherichia_coli.trn
+
+CPU cores: 1
+
+BLAST path: /opt/anaconda3/envs/chewbbaca/bin
+
+CDS input: False
+
+Prodigal mode: single
+
+Mode: 4
+
+Number of inputs: 66
+
+Number of loci: 7219
+
+Intermediate files will be stored in chewbbaca/allele_call_results_wgMLST/temp
+
+Pre-computed data
+
+===================
+
+Determining allele size mode for all loci...
+
+Loci allele size mode values stored in chewbbaca/output_schema/schema_seed/loci_modes
+
+Could not find pre-computed hash tables used for exact matching.
+
+Creating hash tables...
+
+Hash tables stored in chewbbaca/output_schema/schema_seed/pre_computed
+
+CDS prediction
+
+================
+
+Predicting CDSs for 66 inputs...
+
+[====================] 100%
+
+Extracted a total of 321038 CDSs from 66 inputs.
+
+CDS deduplication
+
+===================
+
+Identifying distinct CDSs...
+
+Identified 32691 distinct CDSs.
+
+CDS exact matching
+
+====================
+
+Searching for CDS exact matches...
+
+Found 72703 exact matches (7219 distinct schema alleles).
+
+Unclassified CDSs: 25472
+
+CDS translation
+
+=================
+
+Translating 25472 CDSs...
+
+[====================] 100%
+
+0 CDSs could not be translated.
+
+Unclassified CDSs: 25472
+
+Protein deduplication
+
+=======================
+
+Identifying distinct proteins...
+
+Identified 19322 distinct proteins.
+
+Protein exact matching
+
+========================
+
+Searching for Protein exact matches...
+
+Found 2615 exact matches (5882 distinct CDSs, 72369 total CDSs).
+
+Unclassified proteins: 16707
+
+Protein clustering
+
+====================
+
+Translating schema representative alleles...
+
+Determining BLASTp self-score for each representative...
+
+Representative BLASTp self-scores stored in chewbbaca/output_schema/schema_seed/short/self_scores
+
+Creating minimizer index for representative alleles...
+
+Created index with 430762 distinct minimizers for 7219 loci.
+
+Clustering proteins...
+
+[====================] 100%
+
+Clustered 15616 proteins into 4683 clusters.
+
+1091 proteins were not added to any cluster.
+
+Aligning cluster representatives against clustered proteins...
+
+[====================] 100%
+
+Classifying high-scoring matches...
+
+[====================] 100%
+
+Classified 13018 distinct proteins.
+
+Unclassified proteins: 3689
+
+Representative determination
+
+==============================
+
+Aligning representative alleles against unclassified proteins...
+
+===========================================================================
+
+Iteration Loci High-Scoring Classified Selected Unclassified
+
+===========================================================================
+
+1 7219 473 849 138 2840
+
+2 135 24 51 0 2789
+
+===========================================================================
+
+Wrapping up
+
+=============
+
+Creating file with genome coordinates profiles (results_contigsInfo.tsv)...
+
+Identifying paralogous loci and creating files with the list of paralogous loci (paralogous_counts.tsv & paralogous_loci.tsv)...
+
+Identified 2 paralogous loci.
+
+Assigning allele identifiers to inferred alleles...
+
+Assigned identifiers to 19767 new alleles for 5079 loci.
+
+Getting original sequence identifiers for new alleles...
+
+Getting data for new representative alleles...
+
+Adding the BLASTp self-score for the new representatives to chewbbaca/output_schema/schema_seed/short/self_scores
+
+Creating FASTA files with the new alleles...
+
+Adding new alleles to schema...
+
+Updating allele size mode values stored in chewbbaca/output_schema/schema_seed/loci_modes
+
+Updating pre-computed hash tables in chewbbaca/output_schema/schema_seed/pre_computed
+
+Creating file with the allelic profiles (results_alleles.tsv)...
+
+Creating file with class counts per input (results_statistics.tsv)...
+
+Creating file with class counts per locus (loci_summary_stats.tsv)...
+
+Creating file with the coordinates of CDSs identified in inputs (cds_coordinates.tsv)...
+
+Creating file with invalid CDSs (invalid_cds.txt)...
+
+Counting number of classified CDSs...
+
+Classified a total of 300310 CDSs.
+
+=========================================================================================
+
+EXC INF PLOT3 PLOT5 LOTSC NIPH NIPHEM ALM ASM PAMA
+
+=========================================================================================
+
+256738 19767 100 597 67 1820 7804 385 1517 4
+
+=========================================================================================
+
+Added 19767 new alleles to the schema.
+
+Added 134 new representative alleles to the schema.
+
+Removing temporary directory with intermediate files...
+
+Creating log file (logging_info.txt)...
+
+Results available in chewbbaca/allele_call_results_wgMLST
+
+Finished at: 2026-07-30T13:22:42
+
+Took 12m 16s.
+
+3)  Extract cgMLST
+
+(chewbbaca) ➜ chapter4 chewBBACA.py ExtractCgMLST -i chewbbaca/allele_call_results_wgMLST/results_alleles.tsv -o chewbbaca/cgmlst_0.95 --t 0.95
+
+chewBBACA version: 3.5.4
+
+Authors: Rafael Mamede, Pedro Cerqueira, Mickael Silva, João Carriço, Mário Ramirez
+
+Github: https://github.com/B-UMMI/chewBBACA
+
+Documentation: https://chewbbaca.readthedocs.io/en/latest/index.html
+
+Contacts: imm-bioinfo@medicina.ulisboa.pt
+
+=============================
+
+chewBBACA - ExtractCgMLST
+
+=============================
+
+Started at: 2026-07-30T13:29:35
+
+Input matrix has 66 profiles for 7219 loci.
+
+0 loci to exclude.
+
+0 genomes to exclude.
+
+Masking matrix with 66 profiles for 7219 loci...
+
+Masked 66 profiles.
+
+Building presence-absence matrix...
+
+Presence-absence matrix saved to chewbbaca/cgmlst_0.95/presence_absence.tsv
+
+Determining missing data per genome...
+
+Missing data table saved to chewbbaca/cgmlst_0.95/missing_loci_stats.tsv
+
+Determining cgMLST for loci presence threshold of 0.95...
+
+Computed for...66 genomes.
+
+cgMLST for loci presence threshold of 0.95 composed of 3249/7219 genes.
+
+cgMLST profiles saved to chewbbaca/cgmlst_0.95/cgMLST95.tsv
+
+List of loci in the cgMLST saved to chewbbaca/cgmlst_0.95/cgMLSTschema95.txt
+
+HTML file with cgMLST per loci presence threshold and step saved to chewbbaca/cgmlst_0.95/cgMLST.html
+
+Finished at: 2026-07-30T13:29:43
+
+Took 0m 8s.
