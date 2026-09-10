@@ -11,6 +11,15 @@ stx2i-positive genomes (66 genomes in total).
 | `spanning_tree.R` | Figure 4.1 — cgMLST minimum-spanning tree. Reads the GrapeTree Newick file, attaches isolate metadata with `ggtree`, and draws tip points coloured by serotype and shaped by isolation source, with country of origin and MLST added as `gheatmap` panels. Also produces unrooted (daylight) and circular layouts. |
 | `virulence_heatmap_with_source_annotation.R` | Figure 4.2 — virulence gene presence/absence heatmap. Builds the binary genome × gene matrix from the combined VirulenceFinder output, assigns each gene to a functional category, annotates rows by isolation source, clusters genomes by Ward D2, and writes the four derived tables listed below. |
 
+## Figures
+
+`figures/` holds the rendered output of both scripts, at the resolution used in the thesis.
+
+| File | Figure |
+|---|---|
+| `figure4.1_core_genome_phylogeny_stx2i.jpg` | Figure 4.1 — core genome phylogeny of the 66 Stx2i-positive genomes, tips coloured by serotype and shaped by isolation source, with a country-of-origin panel |
+| `figure4.2_virulence_gene_profiles_stx2i.jpg` | Figure 4.2 — presence/absence of 45 virulence genes across the 66 genomes |
+
 ## Data
 
 | File | Contents |
