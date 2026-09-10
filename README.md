@@ -140,6 +140,8 @@ Toxin-Producing Escherichia coli* [MSc thesis]. Carleton University.
 - [sipprverse](https://github.com/OLC-Bioinformatics/sipprverse)
 - [COWBAT](https://github.com/OLC-Bioinformatics/COWBAT)
 - [StxTyper](https://github.com/ncbi/stxtyper) (NCBI)
+- [chewBBACA](https://github.com/B-UMMI/chewBBACA) (B-UMMI) — cgMLST/wgMLST schema creation and allele calling; the output in `chapter4_stx2i_lamb/data/chewbbaca/` was produced with it
+- [GrapeTree](https://github.com/achtman-lab/GrapeTree) (Achtman lab) — MSTreeV2, which built the tree in `cgMLST95_MSTreeV2.nwk`
 
 ## Contact
 
