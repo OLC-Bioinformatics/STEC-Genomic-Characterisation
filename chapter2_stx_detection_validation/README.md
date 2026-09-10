@@ -43,7 +43,7 @@ All four comparison scripts read `data/ground_truth/StxDB_groundtruth_subtype_le
 | `geneseekr_subtype_comparison_cutoff.py` | `data/geneseekr/GeneSeekr_Subtype_Comparison_90.xlsx` — the ≥ 90% analysis reported in the thesis |
 | `geneseekr_subtype_comparison.py` | the same comparison with no percent-match cutoff |
 | `stxtyper_subtype_comparison.py` | `data/stxtyper/StxTyper_Subtype_Comparison.xlsx` — COMPLETE operons only |
-| `kma_secondary_..._19_subtypes.py` | `data/kma/kmaresults_70_conclave1_secondary_three_level_comparison_19.xlsx` — operon, variant and subtype levels scored independently |
+| `kma_secondary_independent_three_level_comparison_pipeline_19_subtypes.py` | `data/kma/kmaresults_70_conclave1_secondary_three_level_comparison_19.xlsx` — operon, variant and subtype levels scored independently |
 
 ### 3. Pool and plot
 
