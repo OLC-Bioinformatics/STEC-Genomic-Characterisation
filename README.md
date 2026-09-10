@@ -4,8 +4,6 @@ Analysis code and derived data for the MSc thesis *Genomic Characterisation and 
 Assessment of Shiga Toxin-Producing Escherichia coli* (N. Shubair, Carleton University,
 in collaboration with the Canadian Food Inspection Agency).
 
-The thesis cites this repository in the Methods of Chapters 2 and 3 as the source of the
-custom comparison scripts and of all analysis and plotting code.
 
 ## What this repository contains
 
