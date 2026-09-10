@@ -1,0 +1,2 @@
+#name	target_contig	stx_type	operon	identity	target_start	target_stop	target_strand	A_reference	A_reference_subtype	A_identity	A_coverage	B_reference	B_reference_subtype	B_identity	B_coverage
+SRR3723069_FP	Contig_50_228.805	stx2k	COMPLETE	99.75	6408	7645	-	QHR28667.1	stxA2k	99.69	100.00	AGB13720.2	stxB2	100.00	100.00
