@@ -1,0 +1,67 @@
+genome_id	Source	serotype	host	isolation_source	isolation_type	source_type
+2021-MIN-0009	Ovis aries	O8:H19	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+2021-MIN-0249	Ovis aries	O8:H25	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+2021-MIN-0250	Ovis aries	O9:H30	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+2021-MIN-0251	Ovis aries	O-untypeable:H21	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+2021-MIN-0252	Ovis aries	O-untypeable:H21	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+2022-MIN-0036	Ovis aries	O-untypeable:H21	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+2022-MIN-0037	Ovis aries	O9:H30	Ovis aries	Raw Ground Lamb	environmental/other	Ovis aries
+GCA_012153565.1	Environmental	O100:H30	NA	environmental	environmental/other	Environmental
+GCA_012153625.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_012193385.1	Human Clinical	O8:H9	NA	human	clinical	Human Clinical
+GCA_012560085.1	Human Clinical	O8:H19	NA	human	clinical	Human Clinical
+GCA_016773735.1	Raw Animal Feed	O9:H30	NA	raw meat-based diets for companion animals	environmental/other	Raw Animal Feed
+GCA_017076875.1	Environmental	O8:H25	NA	periphyton	environmental/other	Environmental
+GCA_017125235.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_017125255.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_018927075.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_019436045.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_020370835.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_021078905.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021079095.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021079545.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021079625.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021080295.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021081115.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021082345.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021082805.1	Ovis aries	O100:H30	Ovis aries	sheep recto-anal junction	clinical	Ovis aries
+GCA_021492705.1	Human Clinical	O8:H25	NA	human	clinical	Human Clinical
+GCA_023211155.1	Human Clinical	O8:H25	NA	feces	clinical	Human Clinical
+GCA_023768585.1	Human Clinical	O8:H25	NA	human	clinical	Human Clinical
+GCA_025327895.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_025988885.1	Dairy	O8:H19	NA	Dairy product	environmental/other	Dairy
+GCA_028221245.1	Human Clinical	O9:H30	NA	feces	clinical	Human Clinical
+GCA_028240895.1	Human Clinical	O9:H30	NA	feces	clinical	Human Clinical
+GCA_029481885.1	Oyster	O9:H10	NA	Oyster	NA	Oyster
+GCA_036292925.1	Environmental	O-untypeable:H21	NA	feces	environmental/other	Environmental
+GCA_036299585.1	Environmental	O-untypeable:H21	NA	feces	environmental/other	Environmental
+GCA_037035515.1	Human Clinical	O8:H25	NA	human	clinical	Human Clinical
+GCA_038017815.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_038086625.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_038420345.1	Unknown Food	O-untypeable:H21	NA	food	environmental/other	Unknown Food
+GCA_039685295.1	Unknown Food	O-untypeable:H21	NA	food	environmental/other	Unknown Food
+GCA_039686495.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_039694335.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_039735685.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_039775235.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_039778795.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_039787335.1	Unknown Food	O100:H30	NA	food	environmental/other	Unknown Food
+GCA_039865785.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_039879905.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_039947755.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_039951795.1	Human Clinical	O9:H30	NA	human	clinical	Human Clinical
+GCA_039997695.1	Unknown Food	O8:H25	NA	food	environmental/other	Unknown Food
+GCA_040279925.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_040935505.2	Human Clinical	O9:H19	NA	human	clinical	Human Clinical
+GCA_041047495.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_041545175.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_042177385.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_042441235.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical
+GCA_042710215.1	Human Clinical	O8:H25	NA	clinical	clinical	Human Clinical
+GCA_042935545.1	Human Clinical	O8:H25	NA	human	clinical	Human Clinical
+GCA_043574615.1	Human Clinical	O8:H25	NA	not collected	clinical	Human Clinical
+GCA_044682155.1	Human Clinical	O9:H30	NA	human	clinical	Human Clinical
+GCA_044986905.1	Human Clinical	O9:H30	NA	clinical	clinical	Human Clinical
+GCA_045501555.1	Human Clinical	O8:H25	NA	clinical	clinical	Human Clinical
+GCA_051797185.1	Human Clinical	O8:H9	NA	human	clinical	Human Clinical
+GCA_052635535.1	Human Clinical	O100:H30	NA	human	clinical	Human Clinical

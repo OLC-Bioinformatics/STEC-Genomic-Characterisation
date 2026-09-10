@@ -1,0 +1,46 @@
+gene	Category	genomes_positive	prevalence_percent
+csgA	Adhesins	66	100
+fdeC	Adhesins	66	100
+hlyE	Other	66	100
+nlpI	Other	66	100
+stx2	Toxins	66	100
+terC	Stress response	66	100
+yehA	Adhesins	66	100
+yehB	Adhesins	66	100
+yehD	Adhesins	66	100
+stx2i-O9-CB10366	Toxins	65	98.5
+yehC	Adhesins	65	98.5
+eltIIAB-a	Toxins	61	92.4
+traT	Immune evasion	61	92.4
+fimH	Adhesins	58	87.9
+iss	Immune evasion	57	86.4
+tia	Adhesins	49	74.2
+traJ	Other	48	72.7
+cia	Colicins / bacteriocins	38	57.6
+cba	Colicins / bacteriocins	35	53
+cma	Colicins / bacteriocins	35	53
+mchB	Colicins / bacteriocins	35	53
+mchC	Colicins / bacteriocins	35	53
+mchF	Colicins / bacteriocins	35	53
+mcmA	Colicins / bacteriocins	35	53
+gad	Stress response	34	51.5
+AslA	Other	33	50
+yghJ	Other	32	48.5
+ompT	Immune evasion	29	43.9
+lpfA	Adhesins	26	39.4
+hha	Stress response	19	28.8
+capU	Other	9	13.6
+shiB	Other	9	13.6
+anr	Stress response	7	10.6
+hra	Adhesins	4	6.1
+astA	Toxins	2	3
+aamR	Stress response	1	1.5
+afaA	Adhesins	1	1.5
+afaB	Adhesins	1	1.5
+colE2-like	Colicins / bacteriocins	1	1.5
+papA_F12	Adhesins	1	1.5
+papC	Adhesins	1	1.5
+shiA	Other	1	1.5
+sitA	Iron acquisition	1	1.5
+stx2e-O8-1509W52833	Toxins	1	1.5
+stx2l-O65-1610T27873	Toxins	1	1.5

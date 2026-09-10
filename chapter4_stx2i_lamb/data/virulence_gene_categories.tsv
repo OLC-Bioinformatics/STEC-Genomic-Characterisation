@@ -1,0 +1,46 @@
+gene	category
+csgA	Adhesins
+eltIIAB-a	Toxins
+fdeC	Adhesins
+fimH	Adhesins
+gad	Stress response
+hlyE	Other
+iss	Immune evasion
+lpfA	Adhesins
+nlpI	Other
+ompT	Immune evasion
+shiB	Other
+stx2i-O9-CB10366	Toxins
+terC	Stress response
+tia	Adhesins
+traT	Immune evasion
+yehA	Adhesins
+yehB	Adhesins
+yehC	Adhesins
+yehD	Adhesins
+yghJ	Other
+stx2	Toxins
+anr	Stress response
+hha	Stress response
+traJ	Other
+astA	Toxins
+capU	Other
+hra	Adhesins
+mchB	Colicins / bacteriocins
+mchC	Colicins / bacteriocins
+mchF	Colicins / bacteriocins
+mcmA	Colicins / bacteriocins
+AslA	Other
+cba	Colicins / bacteriocins
+cia	Colicins / bacteriocins
+cma	Colicins / bacteriocins
+colE2-like	Colicins / bacteriocins
+papA_F12	Adhesins
+papC	Adhesins
+shiA	Other
+sitA	Iron acquisition
+stx2e-O8-1509W52833	Toxins
+stx2l-O65-1610T27873	Toxins
+aamR	Stress response
+afaA	Adhesins
+afaB	Adhesins
