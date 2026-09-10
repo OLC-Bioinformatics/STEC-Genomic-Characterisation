@@ -1,0 +1,185 @@
+gene	Category
+AslA	Other
+chuA	Iron acquisition
+cia	Colicins / bacteriocins
+cib	Other
+csgA	Adhesins
+ehxA	Toxins
+espP	Other
+fdeC	Adhesins
+fimH	Adhesins
+gad	Stress response
+iha	Adhesins
+iss	Immune evasion
+lpfA	Adhesins
+mchF	Colicins / bacteriocins
+nlpI	Other
+ompT	Immune evasion
+sitA	Iron acquisition
+stx1-S.-sonnei-CB7888	Toxins
+stx1a-O157-GPU96MM	Toxins
+stx2a-O178-TS22-08	Toxins
+subA	Toxins
+terC	Stress response
+traT	Immune evasion
+yehA	Adhesins
+yehB	Adhesins
+yehC	Adhesins
+yehD	Adhesins
+yghJ	Other
+stx1	Toxins
+stx2	Toxins
+anr	Stress response
+eae-g01-gamma_1	Adhesins
+espA	Other
+espB	Other
+espF	Other
+espJ	Other
+espY2	Other
+etpD	Other
+hlyE	Other
+katP	Other
+nleB	Other
+nleC	Other
+stx2a-O157-EDL933	Toxins
+tir	Adhesins
+toxB	Other
+astA	Toxins
+nleA	Other
+tccP	Other
+stx2c-O157-310	Toxins
+stx2c-O157-469	Toxins
+stx2c-O157-A75	Toxins
+stx2c-O157-FLY16	Toxins
+stx2c-O157-Y350-	Toxins
+hha	Stress response
+hra	Adhesins
+stx2c-OR-TS27-08	Toxins
+traJ	Other
+stx2d-O28-MT71	Toxins
+cba	Colicins / bacteriocins
+cma	Colicins / bacteriocins
+cea	Colicins / bacteriocins
+cvaC	Other
+eltIIAB-a	Toxins
+stx2a-O8-BMH-17-0027	Toxins
+shiB	Other
+stx1a-O157-FLY16	Toxins
+shiA	Other
+stx2e-ONT-26725-97	Toxins
+tia	Adhesins
+fedE	Other
+stx2e-O139-S1191	Toxins
+ireA	Iron acquisition
+iucC	Iron acquisition
+iutA	Iron acquisition
+mcbA	Colicins / bacteriocins
+tsh	Other
+mchB	Colicins / bacteriocins
+mchC	Colicins / bacteriocins
+colE2-like	Colicins / bacteriocins
+iroN	Other
+aaiC	Other
+air	Other
+eilA	Other
+stx2a-O111-928-91	Toxins
+stx2a-O157-93-111	Toxins
+C719-09_SefB:unpublished	Other
+C719-09_SefC:unpublished	Other
+fyuA	Iron acquisition
+irp2	Iron acquisition
+espI	Other
+stx2b-O128-24196-97	Toxins
+kpsE	Immune evasion
+stx1c-O174-DG131-3	Toxins
+stx1c-ONT-BCN26	Toxins
+stx1c-ONT-HI-C	Toxins
+stx2d-O2-EC604a	Toxins
+hlyA	Other
+kpsMII	Immune evasion
+papA_F12	Adhesins
+papC	Adhesins
+stx2h-O102-STEC299	Toxins
+usp	Other
+vat	Other
+yfcV	Other
+estap-STa4	Toxins
+faeC	Other
+faeD	Other
+faeE	Other
+faeH	Other
+faeI	Other
+faeJ	Other
+stx2a-ONT-EK9900	Toxins
+stx2a-O157-SF-258-98	Toxins
+stx1d-ONT-92-1252	Toxins
+cdt-IIIB	Other
+cdt-VB	Other
+cnf2	Other
+dhaK	Other
+focCsfaE	Other
+hlyF	Other
+ibeA	Other
+kpsMII_K1	Immune evasion
+neuC	Other
+sfaD	Other
+sfaS	Other
+clbB	Other
+mcmA	Colicins / bacteriocins
+stx2b-O146-BMH-17-0036	Toxins
+eae-e01-epsilon_1	Adhesins
+efa1	Other
+stx2a-O83-N1135	Toxins
+stx2a-O88-N2688	Toxins
+aalF	Other
+faeF	Other
+pic	Other
+senB	Other
+stx2b-O118-EH250	Toxins
+afaA	Adhesins
+afaB	Adhesins
+afaC	Adhesins
+afaD	Adhesins
+epeA	Other
+papA_F19	Adhesins
+papA_F20	Adhesins
+tibC	Other
+aamR	Stress response
+stx2g-O2-7v	Toxins
+cif	Other
+lys	Other
+colE2	Colicins / bacteriocins
+etsC	Other
+kpsMII_K5	Immune evasion
+stx2a-O48-94C	Toxins
+colE8	Colicins / bacteriocins
+stx2b-O174-031	Toxins
+stx2b-O96-S-6	Toxins
+cdt-Ea	Other
+cdt-Sb	Other
+estb-STb2:NEMH01000033	Toxins
+stx2d-O73-C165-02	Toxins
+eae-g02-theta	Adhesins
+ORF3	Other
+ORF4	Other
+colE5	Colicins / bacteriocins
+F17A	Other
+F17C	Other
+F17D	Other
+F17G	Other
+colE9	Colicins / bacteriocins
+stx2c-O177-06-5121	Toxins
+stx2d1-O91-B2F1	Toxins
+stx1c-Out-HI-N	Toxins
+stx2k-O48-STEC309	Toxins
+stx2i-O9-CB10366	Toxins
+stx2b-O40-5293-98	Toxins
+capU	Other
+eae-a03-zeta	Adhesins
+stx2a-O104-G5506	Toxins
+eae-b01a-beta_1a	Adhesins
+stx1a-O157-EDL933	Toxins
+stx2d-OR-TS06-08	Toxins
+colE4	Colicins / bacteriocins
+colE7	Colicins / bacteriocins
+stx2j-O33-PNUSAE005447	Toxins
