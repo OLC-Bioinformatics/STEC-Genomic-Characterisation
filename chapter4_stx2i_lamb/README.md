@@ -35,9 +35,33 @@ stx2i-positive genomes (66 genomes in total).
 The four derived tables are outputs of `virulence_heatmap_with_source_annotation.R` and are
 included so the figure can be inspected without re-running the analysis.
 
-> **Not included:** `cgmlst95_MSTreeV2.nwk`, the GrapeTree Newick file that
-> `spanning_tree.R` reads. It is produced by the chewBBACA → GrapeTree steps described
-> below and must be added before that script will run.
+### chewBBACA output — `data/chewbbaca/`
+
+| File | Contents |
+|---|---|
+| `cgMLST95_MSTreeV2.nwk` | GrapeTree MSTreeV2 Newick file, 66 tips — the tree `spanning_tree.R` reads |
+| `cgMLST95.tsv` | core genome allelic profiles, 66 genomes × 3,249 loci |
+| `cgMLSTschema95.txt` | the 3,249 loci that make up the 95% core schema |
+| `presence_absence.tsv` | locus presence/absence, 66 genomes × 7,219 loci |
+| `missing_loci_stats.tsv` | missing-locus counts per genome |
+| `results_alleles.tsv` | full wgMLST allelic profiles, 66 genomes × 7,219 loci, from `AlleleCall` |
+| `results_statistics.tsv` | per-genome allele call classification counts (EXC, INF, LNF, PLOT, …) |
+| `paralogous_counts.tsv`, `paralogous_loci.tsv` | loci flagged as paralogous during allele calling |
+| `chewbbaca_commands.txt` | the chewBBACA installation and command sequence actually run |
+
+`results_alleles.tsv` is the `AlleleCall` output over the full 7,219-locus schema;
+`ExtractCgMLST` at a 95% presence threshold reduces it to the 3,249 loci in `cgMLST95.tsv`,
+which is what GrapeTree was given.
+
+> **Not included:** the wgMLST schema itself (`output_schema/`, 14,449 locus FASTA files,
+> 96 MB), the per-genome CDS coordinates and contig mapping (`cds_coordinates.tsv`,
+> `results_contigsInfo.tsv`, ~26 MB), and the interactive `cgMLST.html` report. All are
+> regenerable with the commands in `chewbbaca_commands.txt`.
+
+> **Note on the filename.** `spanning_tree.R` reads `cgmlst95_MSTreeV2.nwk` (lower-case
+> `cgmlst`) but the file chewBBACA writes is `cgMLST95_MSTreeV2.nwk`. This works on macOS,
+> whose filesystem ignores case, and fails on Linux. Either rename the file or correct the
+> path in the script before running it elsewhere.
 
 ## Analysis outline
 
